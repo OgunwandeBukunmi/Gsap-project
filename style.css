@@ -1,0 +1,29 @@
+*{
+    margin :0;
+    padding :0;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.black{
+    background-color : black;
+    width :100vw;
+    height : 100vh;
+    position : absolute;
+    display :flex;
+    align-items : center;
+    justify-content :center;
+}.letter{
+  padding: 10px; 
+font-size : 4rem;
+display : none;
+transform :translateY(200px)
+}
+body{
+    width :100vw;
+    height :100vh
+}.welcome {
+    font-size : 6rem;
+    color : white;
+    display :none;
+
+}
